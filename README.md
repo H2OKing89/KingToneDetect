@@ -87,7 +87,4 @@ Under the following terms:
 ## Contact
 
 For any questions or support, feel free to reach out on Discord: **h2oking**, or open an issue in the repository.
-```
-
----
 
