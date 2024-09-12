@@ -189,6 +189,8 @@ Audio processing and tone detection could consume a lot of resources. To manage 
 1. **Monitor Performance**: Implement the CPU and memory monitoring function, and log any instances where the program exceeds the configured thresholds.
 2. **Optimize Algorithms**: Review and optimize the audio processing algorithms to reduce the overall resource consumption. Consider implementing multithreading or asynchronous processing where necessary.
 3. **Test under Load**: Simulate high-load scenarios to ensure the program performs efficiently without crashing or consuming excessive resources.
+
+
 ```
 
 ## Ongoing Tasks
