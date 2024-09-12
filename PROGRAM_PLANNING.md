@@ -5,7 +5,7 @@
 This section outlines the complete workflow of KingToneDetect, from tone detection to post-recording notifications.
 
 ### **1.1 Tone Detection**
-- **Input**: The program listens to an audio stream or file for specific tones assigned to fire departments.
+- **Input**: The program listens to an audio stream for specific tones assigned to fire departments.
 - **Process**: When a tone is detected that matches a configured department (from `tone.cfg`), the system logs the tone and proceeds to the next step.
 - **Output**: Detection triggers the following actions: 
   - Sends **pre-notifications** to the respective department.
