@@ -191,8 +191,6 @@ Audio processing and tone detection could consume a lot of resources. To manage 
 3. **Test under Load**: Simulate high-load scenarios to ensure the program performs efficiently without crashing or consuming excessive resources.
 ```
 
----
-
 ## Ongoing Tasks
 
 
