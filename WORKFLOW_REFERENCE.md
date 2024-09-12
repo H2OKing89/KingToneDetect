@@ -1,3 +1,15 @@
+# Version Control - Core Workflow Document
+
+## Changelog
+- **v1.0.0** (September 14, 2024): Initial release of the core workflow document. Includes heartbeat monitoring, tone detection, pre/post notifications, audio recording logic, and FTP configuration.
+
+## Document History
+
+| Version  | Date               | Author           | Description                                                       |
+|----------|--------------------|------------------|-------------------------------------------------------------------|
+| v1.0.0   | September 14, 2024  | Quentin King      | Initial release. Includes core workflow details and config structure. |
+---
+
 # **KingToneDetect Workflow Reference**
 
 ## **Overview**
