@@ -1,8 +1,3 @@
-Here’s the updated **README.md** with your Discord contact method:
-
----
-
-```markdown
 # KingToneDetect
 
 **KingToneDetect** is an open-source tone detection and alerting system designed to process incoming audio signals, specifically for emergency services like fire departments. The system detects specific tones, records audio, and sends alerts via email, Pushover, or FTP. It also features built-in retry mechanisms, adaptive silence detection, and local backups for reliable performance in critical environments.
