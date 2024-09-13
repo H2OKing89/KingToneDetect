@@ -93,8 +93,6 @@ This section outlines the future tasks that will be worked on and additional fea
 - **Problem**: Multiple recordings being uploaded simultaneously could cause conflicts on the FTP server.
 - **Solution**: Implement **file locking** or stagger uploads to prevent conflicts.
 
-
-
 ### **3.8 Notification Spam**
 - **Problem**: The program might send too many notifications (e.g., multiple notifications for the same event).
 - **Solution**: Implement **rate limiting** for notifications to avoid spamming department personnel.
