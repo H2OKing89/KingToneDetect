@@ -93,9 +93,7 @@ This section outlines the future tasks that will be worked on and additional fea
 - **Problem**: Multiple recordings being uploaded simultaneously could cause conflicts on the FTP server.
 - **Solution**: Implement **file locking** or stagger uploads to prevent conflicts.
 
-### **3.7 Silent Dispatcher or Noise**
-- **Problem**: The program may fail to stop recording if the dispatcher pauses too long, or background noise is detected as a tone.
-- **Solution**: Adjust the **silence detection sensitivity** and implement **noise reduction** for better performance.
+
 
 ### **3.8 Notification Spam**
 - **Problem**: The program might send too many notifications (e.g., multiple notifications for the same event).
@@ -126,6 +124,10 @@ This section lists all the tasks that have been completed and their respective s
 ### **3.4 Wrong Credentials**
 - **Problem**: Incorrect or missing credentials (e.g., FTP, email, Pushover) could prevent notifications or uploads.
 - **Solution**: Validate credentials at startup and notify the user of any missing or invalid credentials.
+
+### **3.7 Silent Dispatcher or Noise**
+- **Problem**: The program may fail to stop recording if the dispatcher pauses too long, or background noise is detected as a tone.
+- **Solution**: Adjust the **silence detection sensitivity** and implement **noise reduction** for better performance.
 
 ### **4.1 Runaway Recording**
 - **Problem**: The program may continue recording indefinitely if silence isn’t detected.
