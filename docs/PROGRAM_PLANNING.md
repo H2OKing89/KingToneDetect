@@ -151,13 +151,32 @@ This section lists all the tasks that have been completed and their respective s
 
 This section outlines the changes made to the document over time and provides a historical record of all updates.
 
-### Changelog
+Of course! Here’s an updated changelog based on the work and progress we've done, including all the sections, updates, and enhancements:
 
-- **v1.2.0** (September 12, 2024): Added parallel tone detection and recording handling with updated notification processes. Configured parameters for tone detection, recording, and notification management. Added detailed explanations of retry logic and disk space management for critical scenarios.
-- **v1.1.0** (September 11, 2024): Added solution for simultaneous tone detection and updated the section on disk space management and configuration validation.
-- **v1.0.0** (September 11, 2024): Initial release of the program planning
+---
 
- document. Includes scenarios, error handling, disk space management, and notification logic.
+# **Changelog - KingToneDetect**
+
+### **v1.2.0** (September 12, 2024)
+- **Parallel Tone Detection & Recording**: Added configuration for parallel recording and notification delivery without overlap. Max recordings set to 5, and recording isolation added to prevent conflicts.
+- **File Integrity Checks**: Introduced file integrity checks after recording and conversion to handle potential corruption. Implemented retry logic and corruption handling with administrator notification.
+- **Corruption Handling**: Added the ability to retry corrupted file conversions, back up corrupted files, and notify administrators when recovery fails.
+- **Disk Space Monitoring**: Disk space thresholds added to halt recordings when space is low, ensuring no interruptions from storage issues.
+- **Updated Recording Parameters**: Introduced a 3.5-second recording delay and adaptive silence detection thresholds. Added logic for MP3 conversion, parallel recordings, and priority handling.
+- **Logging Integration Reminder**: Added a reminder to integrate detailed logging mechanisms across all modules during final testing.
+- **Potential Enhancements**: Documented future potential improvements for graceful stopping during low disk space, stronger checksum validation, and automated recovery.
+
+### **v1.1.0** (September 11, 2024)
+- **Simultaneous Tone Detection**: Added support for parallel tone detection and notifications for multiple departments. Configured max_parallel_recordings to prevent notification overlap.
+- **Disk Space Management**: Implemented disk space monitoring and cleanup processes for audio recordings. Added archive functionality for retaining old files and setting disk space limits.
+- **Error Handling & Retry Logic**: Centralized error handling and retry logic for notifications, FTP uploads, and other processes. Added fallback notifications for administrators when critical errors occur.
+
+### **v1.0.0** (September 10, 2024)
+- **Initial Release**: Core planning document created. Included workflow overviews, notification settings, and initial configuration parameters. Added scenarios for tone detection, recording, and email/Pushover notifications.
+
+---
+
+This updated **changelog** summarizes the latest enhancements and the work we’ve done, especially around parallel detection, file integrity checks, and error handling. Let me know if any additional changes are required before you wrap up!
 
 ---
 
