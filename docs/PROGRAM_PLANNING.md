@@ -83,9 +83,7 @@ This section outlines the future tasks that will be worked on and additional fea
 - **Problem**: The program may stop receiving audio if the input device fails.
 - **Solution**: Implement **device monitoring** and have fallback mechanisms for alternative input devices.
 
-### **3.4 Wrong Credentials**
-- **Problem**: Incorrect or missing credentials (e.g., FTP, email, Pushover) could prevent notifications or uploads.
-- **Solution**: Validate credentials at startup and notify the user of any missing or invalid credentials.
+
 
 ### **3.5 Audio Format Incompatibility**
 - **Problem**: Some systems or integrations may not support certain audio formats (e.g., WAV, MP3).
@@ -124,6 +122,10 @@ This section outlines the future tasks that will be worked on and additional fea
 ## **4. Completed Tasks**
 
 This section lists all the tasks that have been completed and their respective solutions.
+
+### **3.4 Wrong Credentials**
+- **Problem**: Incorrect or missing credentials (e.g., FTP, email, Pushover) could prevent notifications or uploads.
+- **Solution**: Validate credentials at startup and notify the user of any missing or invalid credentials.
 
 ### **4.1 Runaway Recording**
 - **Problem**: The program may continue recording indefinitely if silence isn’t detected.
