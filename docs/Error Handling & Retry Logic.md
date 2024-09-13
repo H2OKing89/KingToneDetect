@@ -1,4 +1,4 @@
-Great! Let’s update the document with the new parameters and organize them according to the structure we’ve established. Here’s the full section update with the logging and retry settings for the **Error Handling & Retry Logic** section of the document:
+# **Error Handling & Retry Logic** section of the document:
 
 ---
 
